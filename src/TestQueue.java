@@ -9,7 +9,6 @@ public class TestQueue {
         queueArray.add(3);
         queueArray.add(3);
         System.out.println(queueArray.peek());
-
         System.out.println(queueArray.remove());
         System.out.println((queueArray.size()));
         System.out.println(queueArray.isEmpty());

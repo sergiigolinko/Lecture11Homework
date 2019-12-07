@@ -12,8 +12,8 @@ public class LinkedQueue implements IntQueue {
         }
         lastInQueue = currentElement;
         size++;
-
     }
+
     public int peek() {
         return firstInQueue.getValue();
     }
@@ -30,11 +30,11 @@ public class LinkedQueue implements IntQueue {
         size--;
         return result;
 
-        }
+    }
 
-     public int size(){
+    public int size() {
         return size;
-     }
+    }
 
     public boolean isEmpty() {
         return firstInQueue == lastInQueue;
